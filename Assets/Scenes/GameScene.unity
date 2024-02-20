@@ -1904,16 +1904,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fcb88a0182faa141b225d9810e6870f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_buffer: 0
   move_speed: 10
   jump_strength: 100
   player_cam: {fileID: 963194225}
   swing_distance: 10
   swing_force: 10
-  left_arrow: {fileID: 0}
-  right_arrow: {fileID: 0}
-  up_arrow: {fileID: 0}
-  charge_meter: {fileID: 0}
-  charge_rate: 0
+  left_arrow: {fileID: 1085159014}
+  right_arrow: {fileID: 1108955496}
+  up_arrow: {fileID: 52218006}
+  charge_meter: {fileID: 2052367565}
+  charge_rate: 0.5
 --- !u!114 &1876957434
 MonoBehaviour:
   m_ObjectHideFlags: 0
